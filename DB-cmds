@@ -1,0 +1,6 @@
+create database mydb;
+use mydb;
+create table users(username VARCHAR(100),password VARCHAR(100));
+insert into users values(&#39;clark&#39;,&#39;kent&#39;);
+insert into users values(&#39;lois&#39;,&#39;lane&#39;);
+quit;
